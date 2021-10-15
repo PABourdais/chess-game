@@ -1,7 +1,8 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, View } from 'react-native';
+import {Dimensions, StyleSheet, View} from 'react-native';
 import Background from "./Background";
+const { width } = Dimensions.get("window");
 
 const Board = () => {
     return (
@@ -16,9 +17,7 @@ export default Board;
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
-        backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'center',
+        width: width,
+        height: width,
     },
 });
