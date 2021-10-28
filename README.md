@@ -13,3 +13,12 @@ React Native implementation of a chess game using chess.js
 
 1. `expo install`
 2. `expo start`
+
+---
+
+<p align="center" >
+  <a href="https://twitter.com/pa_brds"><img src="https://img.shields.io/twitter/follow/pa_brds.svg?style=social" alt="Twitter"></a>
+  <a href="https://github.com/PABourdais/"><img src="https://img.shields.io/github/followers/PABourdais.svg?style=social" alt="Github"></a>
+</p>
+
+
